@@ -31,14 +31,23 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.enzo.x8.IMC"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.enzo.x8.IMC"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "572f2194-b70f-4846-8bc0-530cbc6377f6"
       }
     }
   }
